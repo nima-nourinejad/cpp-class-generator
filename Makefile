@@ -26,3 +26,5 @@ re: fclean all
 
 c98: CXXFLAGS += -std=c++98
 c98: re
+
+
