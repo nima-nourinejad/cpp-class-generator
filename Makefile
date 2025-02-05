@@ -4,6 +4,7 @@ RM = rm -f
 CXXFLAGS = -Wall -Wextra -Werror
 SRCS =  main.cpp \
 
+
 OBJS = $(SRCS:.cpp=.o)
 
 .PHONY: all clean fclean re c98
